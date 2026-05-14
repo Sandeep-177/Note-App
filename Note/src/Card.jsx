@@ -1,9 +1,9 @@
-export default function Card(props){
+export default function Card({data}){
     return(
         <>
-        <div>
-            <h1>{props.firs}</h1>
-            <p>{props.secon}</p>
+        <div className="w-60 h-60 border">
+            <h1>{data.title}</h1>
+            <p>{data.description}</p>
         </div>
         </>
     )

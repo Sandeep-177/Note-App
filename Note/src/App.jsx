@@ -6,10 +6,10 @@ import Card from './Card';
 function App() {
   const [firstInput,setFirstinput]=useState('');
   const [secondInput,setSecondinput]=useState('');
-  // const [datas,setDatas]=useState(null);
+  const [datas,setDatas]=useState(null);
   function go(e) {
     e.preventDefault();
-  // setDatas({dat1:{firstInput}, dat2:{secondInput}})
+  setDatas({title:firstInput, description:secondInput})
 
   setFirstinput('');
   setSecondinput('');
@@ -30,7 +30,12 @@ function App() {
         </form>
         
       </section>
-      
+
+      <div className='m-auto'>
+      {
+        datas && (<Card data={datas} />)
+      }
+      </div>
     </>
   )
 }
