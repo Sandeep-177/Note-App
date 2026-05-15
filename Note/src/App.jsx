@@ -6,10 +6,11 @@ import Card from './Card';
 function App() {
   const [firstInput,setFirstinput]=useState('');
   const [secondInput,setSecondinput]=useState('');
-  const [datas,setDatas]=useState(null);
+  const [datas,setDatas]=useState([]);
   function go(e) {
     e.preventDefault();
-  setDatas({title:firstInput, description:secondInput})
+  setDatas([...datas,{title:firstInput, description:secondInput}])
+
 
   setFirstinput('');
   setSecondinput('');
@@ -32,9 +33,10 @@ function App() {
       </section>
 
       <div className='m-auto'>
-      {
+      {/* {
         datas && (<Card data={datas} />)
-      }
+      } */}
+      <Card data={datas} />
       </div>
     </>
   )
