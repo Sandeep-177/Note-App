@@ -24,9 +24,12 @@ function App() {
         <input className='border text-white p-2 w-3xs' type="text" value={firstInput} onChange={(e)=>{
           setFirstinput(e.target.value);
         }} placeholder='Enter title' required/>
-        <input className='border text-white py-10 px-2 w-3xs' type="text" value={secondInput} onChange={(e)=>{
+        <textarea className='resize-none border text-white h-28 py-2 px-2  w-3xs' type="text" value={secondInput} onChange={(e)=>{
           setSecondinput(e.target.value);
-        }} placeholder='Description' required/>
+        }} placeholder='Description' required></textarea>
+        {/* <input className='border text-white py-10 px-2 w-3xs' type="text" value={secondInput} onChange={(e)=>{
+          setSecondinput(e.target.value);
+        }} placeholder='Description' required/> */}
         <button className='bg-blue-600 p-3 rounded text-2xl font-semibold' >Create</button>
         </form>
         
