@@ -30,7 +30,7 @@ function App() {
         {/* <input className='border text-white py-10 px-2 w-3xs' type="text" value={secondInput} onChange={(e)=>{
           setSecondinput(e.target.value);
         }} placeholder='Description' required/> */}
-        <button className='bg-blue-600 p-3 transform transition-transform duration-150 active:scale-95 rounded text-2xl font-semibold' >Create</button>
+        <button className='bg-blue-700 p-3 transform transition-transform duration-150 active:scale-95 rounded text-2xl font-semibold' >Create</button>
         </form>
         
       </section>
