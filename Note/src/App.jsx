@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import Card from './Card';
+import { Navbar } from './Navbar';
 
 function App() {
   const [firstInput,setFirstinput]=useState('');
@@ -18,6 +19,8 @@ function App() {
 
   return (
     <>
+    
+      <Navbar/>
       <section id="center" className='flex flex-col items-center border p-5 rounded-2xl inset-shadow-amber-900 gap-4 m-auto mb-16'>
         <h1>Creating Note</h1>
         <form onSubmit={go} className='flex flex-col gap-4'>
