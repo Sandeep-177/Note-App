@@ -22,7 +22,7 @@ function App() {
     
       <Navbar/>
       <section id="center" className='flex flex-col items-center border p-5 rounded-2xl inset-shadow-amber-900 gap-4 m-auto mb-16'>
-        <h1>Creating Note</h1>
+        <h1>Create Note</h1>
         <form onSubmit={go} className='flex flex-col gap-4'>
         <input className='border text-white p-2 w-3xs' type="text" value={firstInput} onChange={(e)=>{
           setFirstinput(e.target.value);
@@ -33,7 +33,7 @@ function App() {
         {/* <input className='border text-white py-10 px-2 w-3xs' type="text" value={secondInput} onChange={(e)=>{
           setSecondinput(e.target.value);
         }} placeholder='Description' required/> */}
-        <button className='bg-blue-700 p-3 transform transition-transform duration-150 active:scale-95 rounded text-2xl font-semibold' >Create</button>
+        <button className='bg-blue-700 hover:bg-blue-800 p-3 transform transition-transform duration-150 active:scale-95 rounded text-2xl font-semibold' >Create</button>
         </form>
         
       </section>
