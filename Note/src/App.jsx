@@ -38,9 +38,7 @@ function App() {
 
       <div className='m-[10%] flex flex-wrap gap-7
       '>
-      {/* {
-        datas && (<Card data={datas} />)
-      } */}
+      
       <Card data={datas} />
       </div>
     </>
