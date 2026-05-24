@@ -36,7 +36,7 @@ function App() {
         
       </section>
 
-      <div className='m-[10%] flex flex-wrap gap-7
+      <div className='m-[10%] flex flex-wrap gap-7 w-fit rounded-xl
       '>
       
       <Card data={datas} />
