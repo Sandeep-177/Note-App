@@ -36,7 +36,7 @@ function App() {
         
       </section>
 
-      <div className='m-[10%] flex flex-wrap gap-7 justify-center
+      <div className='m-[10%] flex flex-wrap gap-7 justify-center w-60
       '>
       {/* <div className='m-[10%] flex flex-wrap gap-7 w-fit bg-[url("https://images.rawpixel.com/dark_image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjE3OTgtZWxlbWVudHMtMDFfMS5wbmc.png")] bg-size-[100%_100%] rounded-xl
       '> */}
