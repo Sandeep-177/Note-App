@@ -31,7 +31,7 @@ function App() {
           setSecondinput(e.target.value);
         }} placeholder='Description' required></textarea>
         
-        <button className='bg-blue-700 hover:bg-blue-800 p-3 transform transition-transform duration-150 active:scale-95 rounded text-2xl font-semibold' >Create</button>
+        <button className='bg-blue-700 hover:bg-blue-800 hover:text-white p-3 transform transition-transform duration-150 active:scale-95 rounded text-2xl font-semibold' >Create</button>
         </form>
         
       </section>
