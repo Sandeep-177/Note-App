@@ -6,7 +6,7 @@ export default function Card({data}){
             return(
              <div className=" w-full h-60 border rounded-xl">
             
-            <h1 className="wrap-break-word">{n.title}</h1>
+            <h1 className="wrap-break-word pt-1">{n.title}</h1>
             <p className="wrap-break-word">{n.description}</p>
         </div>
         )
